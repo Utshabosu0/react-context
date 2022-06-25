@@ -7,7 +7,7 @@ export const RingContext = createContext('ring');
 
 function App() {
   const [house, setHouse] = useState(2);
-  const ornaments = 'Shokto Mati Ring'
+  const ornaments = 'Gold Ring'
   return (
     <RingContext.Provider value={[ornaments, house]}>
       <div className="App">
